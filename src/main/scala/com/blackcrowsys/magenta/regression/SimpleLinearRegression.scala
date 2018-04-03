@@ -16,7 +16,7 @@ import com.blackcrowsys.crimson.statistics.Stats
 object SimpleLinearRegression {
 
   def sumOfXDeltaTimesYDelta(xArray: Array[Double], yArray: Array[Double], xMean: Double, yMean: Double): Double = {
-    var result: Array[Double] = for ((x, y) <- xArray zip yArray) yield (x - xMean) * (y - yMean)
+    val result: Array[Double] = for ((x, y) <- xArray zip yArray) yield (x - xMean) * (y - yMean)
     result.sum
   }
 
