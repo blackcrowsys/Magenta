@@ -3,9 +3,9 @@ package com.blackcrowsys.magenta.neural
 import com.blackcrowsys.crimson.common.Tolerence
 import com.blackcrowsys.crimson.functions.Functions
 import com.blackcrowsys.crimson.matrix.Matrix
-import com.blackcrowsys.crimson.matrix.Matrix.{Matrix, createFromResourceFile}
+import com.blackcrowsys.crimson.matrix.Matrix.{Matrix}
 import com.blackcrowsys.magenta.neural.ThreeLayer.ThreeLayer
-import org.scalatest.{BeforeAndAfterAll, FunSuite}
+import org.scalatest.{FunSuite}
 
 class ThreeLayerTests extends FunSuite {
 
