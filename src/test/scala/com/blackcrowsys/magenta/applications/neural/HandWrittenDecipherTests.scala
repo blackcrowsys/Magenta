@@ -4,12 +4,13 @@ import java.text.SimpleDateFormat
 import java.util.Calendar
 
 import com.blackcrowsys.crimson.matrix.Matrix.Matrix
-import org.scalatest.{BeforeAndAfterAll, FunSuite}
+import org.scalatest.{BeforeAndAfterAll, FunSuite, Ignore}
 
+@Ignore
 class HandWrittenDecipherTests extends FunSuite with BeforeAndAfterAll {
 
-  val trainingDataFile: String = "/Users/ramindursingh/MNIST/mnist_train_1.csv"
-  val testDataFile: String = "/Users/ramindursingh/MNIST/mnist_test.csv"
+  val trainingDataFile: String = "/MNIST/mnist_train_1.csv"
+  val testDataFile: String = "/MNIST/mnist_test.csv"
   val inputNodes: Int = 784
   val outputNodes: Int = 10
 
